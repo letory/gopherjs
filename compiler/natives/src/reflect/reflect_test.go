@@ -173,3 +173,7 @@ func TestIssue22073(t *testing.T) {
 	// Shouldn't panic.
 	//m.Call(nil)
 }
+
+func TestCallReturnsEmpty(t *testing.T) {
+	t.Skip("test uses runtime.SetFinalizer, which is not supported by GopherJS")
+}
